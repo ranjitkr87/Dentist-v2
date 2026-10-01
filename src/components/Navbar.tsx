@@ -68,20 +68,20 @@ export const Navbar: React.FC = () => {
       href: "#pillars",
       desc: "Acoustic Isolation & Painless STA",
     },
+    // {
+    //   num: "07",
+    //   title: "Treatment Estimator",
+    //   href: "#pricing-estimator",
+    //   desc: "Transparent Investment Calculator",
+    // },
     {
       num: "07",
-      title: "Treatment Estimator",
-      href: "#pricing-estimator",
-      desc: "Transparent Investment Calculator",
-    },
-    {
-      num: "08",
       title: "Inquiries & FAQ",
       href: "#faq",
       desc: "Longevity, Comfort & Privacy",
     },
     {
-      num: "09",
+      num: "08",
       title: "Private Consultation",
       href: "#consultation",
       desc: "VIP Discovery Slot Reservation",

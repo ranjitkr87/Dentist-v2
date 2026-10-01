@@ -1,5 +1,5 @@
-import React from 'react';
-import { TESTIMONIALS } from '../data/atelierData';
+import React from "react";
+import { TESTIMONIALS } from "../data/atelierData";
 
 export const Testimonials: React.FC = () => {
   return (
@@ -44,14 +44,16 @@ export const Testimonials: React.FC = () => {
               </div>
               <footer className="pt-4 border-t hairline flex items-center justify-between">
                 <div>
-                  <p className="font-headline-sm text-base text-primary">{t.author}</p>
+                  <p className="font-headline-sm text-base text-primary">
+                    {t.author}
+                  </p>
                   <p className="font-label-sm uppercase tracking-[0.16em] text-on-surface-variant text-[10px]">
                     {t.title}
                   </p>
                 </div>
-                <span className="font-label-sm text-secondary uppercase tracking-[0.14em] text-[9px] bg-surface-container-low px-2 py-1">
+                {/* <span className="font-label-sm text-secondary uppercase tracking-[0.14em] text-[9px] bg-surface-container-low px-2 py-1">
                   {t.caseRef}
-                </span>
+                </span> */}
               </footer>
             </div>
           ))}

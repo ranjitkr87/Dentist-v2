@@ -1,21 +1,25 @@
-import React from 'react';
+import React from "react";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-background border-t hairline py-16" role="contentinfo">
+    <footer
+      className="bg-background border-t hairline py-16"
+      role="contentinfo"
+    >
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12">
           {/* Brand Column */}
           <div className="lg:col-span-2 space-y-4">
             <span className="font-headline-md text-2xl uppercase tracking-[0.06em] text-primary block">
-              Atelier{' '}
+              Atelier{" "}
               <span className="italic font-light lowercase text-secondary font-headline-md tracking-normal">
                 smile architecture
               </span>
             </span>
             <p className="font-body-md text-on-surface-variant font-light max-w-sm leading-relaxed text-[14px]">
-              Cosmetic dentistry, porcelain artistry, and biological facial harmony. Elevating the human
-              smile through understated luxury and surgical excellence.
+              Cosmetic dentistry, porcelain artistry, and biological facial
+              harmony. Elevating the human smile through understated luxury and
+              surgical excellence.
             </p>
             <div className="flex items-center gap-3 pt-2 font-label-sm uppercase tracking-[0.2em] text-secondary text-[10px]">
               <span>AACD Accredited</span>
@@ -31,27 +35,42 @@ export const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-2.5 font-body-sm text-on-surface-variant font-light text-[13px]">
               <li>
-                <a className="hover:text-secondary transition-colors" href="#procedures">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#procedures"
+                >
                   Porcelain Veneers
                 </a>
               </li>
               <li>
-                <a className="hover:text-secondary transition-colors" href="#procedures">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#procedures"
+                >
                   Digital Smile Design
                 </a>
               </li>
               <li>
-                <a className="hover:text-secondary transition-colors" href="#procedures">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#procedures"
+                >
                   Biomimetic Aligners
                 </a>
               </li>
               <li>
-                <a className="hover:text-secondary transition-colors" href="#procedures">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#procedures"
+                >
                   Laser Gum Architecture
                 </a>
               </li>
               <li>
-                <a className="hover:text-secondary transition-colors" href="#procedures">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#procedures"
+                >
                   Enamel Whitening
                 </a>
               </li>
@@ -65,27 +84,42 @@ export const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-2.5 font-body-sm text-on-surface-variant font-light text-[13px]">
               <li>
-                <a className="hover:text-secondary transition-colors" href="#artisan">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#artisan"
+                >
                   Dr. Ananya Sharma
                 </a>
               </li>
               <li>
-                <a className="hover:text-secondary transition-colors" href="#gallery">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#gallery"
+                >
                   Before &amp; After Cases
                 </a>
               </li>
               <li>
-                <a className="hover:text-secondary transition-colors" href="#ceramics">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#ceramics"
+                >
                   Swiss Ceramic Lab
                 </a>
               </li>
               <li>
-                <a className="hover:text-secondary transition-colors" href="#pillars">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#pillars"
+                >
                   Architectural Tour
                 </a>
               </li>
               <li>
-                <a className="hover:text-secondary transition-colors" href="#consultation">
+                <a
+                  className="hover:text-secondary transition-colors"
+                  href="#consultation"
+                >
                   VIP Discretion Policy
                 </a>
               </li>
@@ -102,7 +136,10 @@ export const Footer: React.FC = () => {
             </p>
             <div className="mt-3 space-y-1 font-body-sm text-on-surface-variant font-light text-[13px]">
               <p>
-                <a href="tel:+918049204000" className="hover:text-secondary transition-colors">
+                <a
+                  href="tel:+918049204000"
+                  className="hover:text-secondary transition-colors"
+                >
                   +91 (080) 4920 4000
                 </a>
               </p>
@@ -120,23 +157,38 @@ export const Footer: React.FC = () => {
 
         <div className="pt-8 border-t hairline flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-on-surface-variant font-light text-[12px]">
           <p>
-            © 2026 Atelier Smile Architecture. All rights reserved. Registered under Karnataka Private
-            Medical Establishments Act.
+            © 2026 Atelier Smile Architecture. All rights reserved. Registered
+            under Karnataka Private Medical Establishments Act.
           </p>
-          <div className="flex items-center space-x-6 font-label-sm uppercase tracking-[0.18em] text-[10px]">
-            <a className="hover:text-primary transition-colors" href="#consultation">
+          <div className="hidden flex items-center space-x-6 font-label-sm uppercase tracking-[0.18em] text-[10px]">
+            <a
+              className="hover:text-primary transition-colors"
+              href="#consultation"
+            >
               Confidentiality
             </a>
-            <a className="hover:text-primary transition-colors" href="/sitemap.xml">
+            <a
+              className="hover:text-primary transition-colors"
+              href="/sitemap.xml"
+            >
               Sitemap.xml
             </a>
-            <a className="hover:text-primary transition-colors" href="/robots.txt">
+            <a
+              className="hover:text-primary transition-colors"
+              href="/robots.txt"
+            >
               Robots.txt
             </a>
-            <a className="hover:text-primary transition-colors" href="/llms.txt">
+            <a
+              className="hover:text-primary transition-colors"
+              href="/llms.txt"
+            >
               LLMs.txt
             </a>
-            <a className="hover:text-primary transition-colors" href="/humans.txt">
+            <a
+              className="hover:text-primary transition-colors"
+              href="/humans.txt"
+            >
               Humans.txt
             </a>
           </div>
