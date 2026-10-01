@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 export const Navbar: React.FC = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -8,39 +8,84 @@ export const Navbar: React.FC = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   // Close drawer on Escape key press
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && drawerOpen) {
+      if (e.key === "Escape" && drawerOpen) {
         setDrawerOpen(false);
       }
     };
     if (drawerOpen) {
-      document.body.style.overflow = 'hidden';
-      window.addEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = "hidden";
+      window.addEventListener("keydown", handleKeyDown);
     } else {
-      document.body.style.overflow = '';
+      document.body.style.overflow = "";
     }
     return () => {
-      document.body.style.overflow = '';
-      window.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", handleKeyDown);
     };
   }, [drawerOpen]);
 
   const navPortals = [
-    { num: '01', title: 'The Atelier', href: '#hero', desc: 'Indiranagar Sanctuary & Philosophy' },
-    { num: '02', title: 'Aesthetic Procedures', href: '#procedures', desc: 'Minimal-Prep Veneers & DSD' },
-    { num: '03', title: 'Smile Transformations', href: '#gallery', desc: 'Clinical Proof & Case Studies' },
-    { num: '04', title: 'Swiss Ceramic Studio', href: '#ceramics', desc: 'Optical Physics & Shade Swatches' },
-    { num: '05', title: 'Dr. Ananya Sharma', href: '#artisan', desc: 'Master Aesthetic Prosthodontist, FAACD' },
-    { num: '06', title: 'Atelier Standards', href: '#pillars', desc: 'Acoustic Isolation & Painless STA' },
-    { num: '07', title: 'Treatment Estimator', href: '#pricing-estimator', desc: 'Transparent Investment Calculator' },
-    { num: '08', title: 'Inquiries & FAQ', href: '#faq', desc: 'Longevity, Comfort & Privacy' },
-    { num: '09', title: 'Private Consultation', href: '#consultation', desc: 'VIP Discovery Slot Reservation' },
+    {
+      num: "01",
+      title: "The Atelier",
+      href: "#hero",
+      desc: "Indiranagar Sanctuary & Philosophy",
+    },
+    {
+      num: "02",
+      title: "Aesthetic Procedures",
+      href: "#procedures",
+      desc: "Minimal-Prep Veneers & DSD",
+    },
+    {
+      num: "03",
+      title: "Smile Transformations",
+      href: "#gallery",
+      desc: "Clinical Proof & Case Studies",
+    },
+    {
+      num: "04",
+      title: "Swiss Ceramic Studio",
+      href: "#ceramics",
+      desc: "Optical Physics & Shade Swatches",
+    },
+    {
+      num: "05",
+      title: "Dr. Ananya Sharma",
+      href: "#artisan",
+      desc: "Master Aesthetic Prosthodontist, FAACD",
+    },
+    {
+      num: "06",
+      title: "Atelier Standards",
+      href: "#pillars",
+      desc: "Acoustic Isolation & Painless STA",
+    },
+    {
+      num: "07",
+      title: "Treatment Estimator",
+      href: "#pricing-estimator",
+      desc: "Transparent Investment Calculator",
+    },
+    {
+      num: "08",
+      title: "Inquiries & FAQ",
+      href: "#faq",
+      desc: "Longevity, Comfort & Privacy",
+    },
+    {
+      num: "09",
+      title: "Private Consultation",
+      href: "#consultation",
+      desc: "VIP Discovery Slot Reservation",
+    },
   ];
 
   return (
@@ -52,7 +97,7 @@ export const Navbar: React.FC = () => {
 
       <header
         className={`sticky top-0 z-40 transition-all duration-300 ${
-          scrolled ? 'bg-[#fbf9f6]/95 backdrop-blur-md shadow-sm' : 'bg-[#fbf9f6]'
+          scrolled ? "bg-[#fbf9f6]/95  shadow-sm" : "bg-[#fbf9f6]"
         } border-b hairline`}
         role="banner"
       >
@@ -64,7 +109,7 @@ export const Navbar: React.FC = () => {
             aria-label="Atelier Smile Architecture Home"
           >
             <span className="font-headline-md text-xl sm:text-2xl tracking-[0.05em] text-primary uppercase font-normal leading-none">
-              Atelier{' '}
+              Atelier{" "}
               <span className="italic font-light lowercase text-secondary font-headline-md tracking-normal">
                 smile architecture
               </span>
@@ -117,16 +162,23 @@ export const Navbar: React.FC = () => {
             <button
               type="button"
               className="inline-flex items-center gap-2 px-3 py-2 border hairline bg-surface hover:bg-surface-container-low transition-colors text-primary font-label-md tracking-[0.16em] uppercase text-[10.5px] sm:text-[11px] focus:outline-none focus-visible:ring-1 focus-visible:ring-secondary"
-              aria-label={drawerOpen ? 'Close Navigation Directory' : 'Open Navigation Directory'}
+              aria-label={
+                drawerOpen
+                  ? "Close Navigation Directory"
+                  : "Open Navigation Directory"
+              }
               aria-expanded={drawerOpen}
               aria-controls="architectural-drawer"
               onClick={() => setDrawerOpen(!drawerOpen)}
             >
-              <span className="material-symbols-outlined text-lg" aria-hidden="true">
-                {drawerOpen ? 'close' : 'menu'}
+              <span
+                className="material-symbols-outlined text-lg"
+                aria-hidden="true"
+              >
+                {drawerOpen ? "close" : "menu"}
               </span>
               <span className="hidden sm:inline font-medium">
-                {drawerOpen ? 'Close' : 'Directory'}
+                {drawerOpen ? "Close" : "Directory"}
               </span>
             </button>
           </div>
@@ -151,7 +203,7 @@ export const Navbar: React.FC = () => {
                 <div className="flex items-center justify-between pb-6 border-b hairline">
                   <div>
                     <span className="font-headline-md text-xl tracking-[0.04em] text-primary uppercase font-normal block">
-                      Atelier{' '}
+                      Atelier{" "}
                       <span className="italic font-light lowercase text-secondary font-headline-md">
                         smile architecture
                       </span>
@@ -167,14 +219,20 @@ export const Navbar: React.FC = () => {
                     className="p-2 text-primary hover:text-secondary focus:outline-none focus-visible:ring-1 focus-visible:ring-secondary"
                     aria-label="Close Navigation Directory"
                   >
-                    <span className="material-symbols-outlined text-2xl" aria-hidden="true">
+                    <span
+                      className="material-symbols-outlined text-2xl"
+                      aria-hidden="true"
+                    >
                       close
                     </span>
                   </button>
                 </div>
 
                 {/* Directory Links List */}
-                <nav className="py-6 space-y-1" aria-label="Expanded Atelier Directory">
+                <nav
+                  className="py-6 space-y-1"
+                  aria-label="Expanded Atelier Directory"
+                >
                   {navPortals.map((portal) => (
                     <a
                       key={portal.href}
@@ -210,7 +268,9 @@ export const Navbar: React.FC = () => {
                     href="tel:+918049204000"
                     className="flex items-center gap-2 text-body-sm text-primary hover:text-secondary transition-colors font-medium text-[13px]"
                   >
-                    <span className="material-symbols-outlined text-secondary text-base">call</span>
+                    <span className="material-symbols-outlined text-secondary text-base">
+                      call
+                    </span>
                     <span>Desk: +91 (080) 4920 4000</span>
                   </a>
                   <a
@@ -219,13 +279,16 @@ export const Navbar: React.FC = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-body-sm text-secondary hover:text-primary transition-colors font-medium text-[13px]"
                   >
-                    <span className="material-symbols-outlined text-base">chat</span>
+                    <span className="material-symbols-outlined text-base">
+                      chat
+                    </span>
                     <span>WhatsApp VIP Concierge Desk</span>
                   </a>
                 </div>
 
                 <p className="font-label-sm text-[9px] uppercase tracking-[0.16em] text-on-surface-variant">
-                  Plot 482, 100ft Road, Indiranagar, Bengaluru • Mon–Sat 10:00–20:00
+                  Plot 482, 100ft Road, Indiranagar, Bengaluru • Mon–Sat
+                  10:00–20:00
                 </p>
               </div>
             </div>
