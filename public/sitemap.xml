@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ais-dev-rvuwscpuiuna4fvorcbr46-264323641319.asia-southeast1.run.app/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://lh3.googleusercontent.com/aida-public/AB6AXuA4OPNw-rTbmsSlwDaHOn2vUeHywdKBw7FqRyi9Ysy9522ouiHJkRCE1LoJuUSRKQZFjBaGiH5aQ82QMq9nPJUltj5T9tLXD1_OSnc9u83rLxDdhyEuDnyvoeQI7ltqiWTAPzFc5IRT7XtaxNFIhxC6u51AJLU6-mFIvz0y0iyFxaLtCS_ULppZAVv-dtIvLfJSokjubRzS1GfgO9q8v9gLpUFqkwdrbcpYiv3sYnDSOTqLIcykHsW9</image:loc>
+      <image:title>Atelier Smile Architecture - Handcrafted Porcelain Veneer and Facial Aesthetics</image:title>
+      <image:caption>Bespoke cosmetic dentistry and Swiss ceramic artistry in Indiranagar, Bengaluru</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ais-dev-rvuwscpuiuna4fvorcbr46-264323641319.asia-southeast1.run.app/#procedures</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-rvuwscpuiuna4fvorcbr46-264323641319.asia-southeast1.run.app/#gallery</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-rvuwscpuiuna4fvorcbr46-264323641319.asia-southeast1.run.app/#artisan</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-rvuwscpuiuna4fvorcbr46-264323641319.asia-southeast1.run.app/#pillars</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ais-dev-rvuwscpuiuna4fvorcbr46-264323641319.asia-southeast1.run.app/#consultation</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+</urlset>

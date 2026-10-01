@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Smile Architecture",
+  "description": "Bespoke cosmetic dentistry, porcelain veneers, and aesthetic facial harmony in Indiranagar, Bengaluru. Master prosthodontics and Swiss ceramic craftsmanship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

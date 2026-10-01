@@ -1,0 +1,37 @@
+{
+  "name": "Atelier Smile Architecture",
+  "short_name": "Atelier Smile",
+  "description": "Bespoke cosmetic dentistry, minimal-prep porcelain veneers, and aesthetic facial harmony in Indiranagar, Bengaluru.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf9f6",
+  "theme_color": "#fbf9f6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["medical", "health", "lifestyle"]
+}

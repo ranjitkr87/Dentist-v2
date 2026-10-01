@@ -1,0 +1,15 @@
+/* TEAM */
+Founder & Master Prosthodontist: Dr. Ananya Sharma, MDS, FAACD
+Ceramic Artisan Laboratory: Swiss & Zurich Biomimetic Ceramist Partners
+Clinical Architecture: Atelier Aesthetic Studio Bengaluru
+
+/* SITE */
+Standards: HTML5, CSS3, ES2022, React 19, Tailwind CSS v4
+Typography: Playfair Display & Manrope (Google Fonts)
+Icons: Material Symbols Outlined, Lucide Icons
+Accessibility: WCAG 2.1 AA Compliant, Screen Reader Friendly, ARIA Landmarks
+Location: Indiranagar, Bengaluru, Karnataka, India
+Language: English
+Doctype: HTML5
+Software: Google AI Studio Build
+Last update: 2026-09-30

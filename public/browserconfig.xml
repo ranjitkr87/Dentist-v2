@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <notification>
+            <polling-frequency-hours>24</polling-frequency-hours>
+        </notification>
+        <tile>
+            <square150x150logo src="/favicon.svg"/>
+            <TileColor>#fbf9f6</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

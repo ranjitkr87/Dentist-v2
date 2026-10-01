@@ -1,0 +1,31 @@
+# Atelier Smile Architecture
+
+> Bespoke Cosmetic Dentistry & Aesthetic Facial Harmony located in Indiranagar, Bengaluru, India.
+
+Atelier Smile Architecture rejects artificial uniformity. Master prosthodontists and European ceramic artisans curate minimal-prep porcelain veneers, biological translucency, and bespoke facial harmony tailored to lip contours and natural dental aesthetics.
+
+## Key Information
+- **Founder & Clinical Director:** Dr. Ananya Sharma, MDS (Prosthodontics), FAACD (Fellow of the American Academy of Cosmetic Dentistry), AIIMS New Delhi Fellow.
+- **Physical Address:** Plot 482, 100 Feet Road, HAL 2nd Stage, Opposite Domlur Flyover Park, Indiranagar, Bengaluru, Karnataka 560038, India.
+- **Telephone / Desk:** +91 (080) 4920 4000
+- **Email:** concierge@ateliersmile.in
+- **Consultation Format:** Exclusively by private appointment. 60-minute comprehensive 3D smile analysis.
+- **Hours:** Monday to Saturday, 10:00 AM – 8:00 PM IST. Sunday by VIP concierge request.
+
+## Core Clinical Procedures
+- **Porcelain Veneers & Lumineers:** 0.2mm - 0.4mm ultra-thin feldspathic and Ivoclar E-max ceramics with minimal tooth preparation.
+- **Digital Smile Design (DSD):** 3D dynamic facial scanning, phonetic calibration, and physical 3D composite mock-up try-in before permanent bonding.
+- **Biomimetic Clear Aligners:** Discreet multi-layer orthodontic polymers with AI precision staging.
+- **Laser Gum Recontouring:** Biolase diode laser sculpting for gummy smiles and asymmetrical gumlines with rapid healing.
+- **Opalescence Clinical Whitening:** Enamel-safe, pH-neutral light-activated bleaching lifting chronic stains without structural etching.
+- **CAD/CAM Monolithic Zirconia & Ceramic Inlays:** Metal-free restorations with hand-stained ceramic gradients.
+
+## Patient Journey
+1. Aesthetic Discovery & Digital Smile Design (DSD)
+2. 3D Mock-up Try-in (Live physical simulation before any prep)
+3. Swiss Master Ceramist Layering
+4. Permanent Bonding & Lifetime Aesthetic Warranty Kit
+
+For full clinical details and documentation, visit:
+- Full Guide: https://ais-dev-rvuwscpuiuna4fvorcbr46-264323641319.asia-southeast1.run.app/llms-full.txt
+- Sitemap: https://ais-dev-rvuwscpuiuna4fvorcbr46-264323641319.asia-southeast1.run.app/sitemap.xml
